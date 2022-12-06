@@ -7,6 +7,10 @@
 #'
 #' @return Age of observation in defined units, years in default
 #' @export
+#' @import lubridate
+#' @import tidyverse
+#' @import here
+#' @import ggplot2
 #'
 #' @examples
 age <- function(dob, age.day = today(), units = "years", floor = TRUE) {

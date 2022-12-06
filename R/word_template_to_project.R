@@ -2,12 +2,13 @@
 #'
 #' @return True or false
 #' @export
+#' @import here
 #'
 #' @examples
 word_template_to_project <- function()
 {
   word_template_folder <-
-    system.file("word-template",package = "eaesdrrr")
+    system.file("word-template",package = "oesrrr")
 
   word_template_file <-
     list.files(word_template_folder, full.names = TRUE)

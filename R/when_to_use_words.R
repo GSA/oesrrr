@@ -5,6 +5,9 @@
 #'
 #' @return String of the English word or number for text
 #' @export
+#' @import scales
+#' @import english
+#' @import tidyverse
 #'
 #' @examples
 when_to_use_words <- function(in_number, sentence_begin = FALSE)

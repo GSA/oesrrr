@@ -5,6 +5,9 @@
 #'
 #' @return Text string of the month and year
 #' @export
+#' @import lubridate
+#' @import tidyverse
+#' @import glue
 #'
 #' @examples Enter as_date('2021-01-01'), returns "January 2021"
 nice_month_year <- function(in_date)

@@ -2,6 +2,7 @@
 #'
 #' @return Nothing if the folders do not exist and warning if they exist
 #' @export
+#' @import here
 #'
 #' @examples
 set_up_folders <- function()

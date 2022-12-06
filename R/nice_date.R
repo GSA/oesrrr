@@ -6,6 +6,9 @@
 #'
 #' @return Text string of the date
 #' @export
+#' @import lubridate
+#' @import tidyverse
+#' @import glue
 #'
 #' @examples Enter as_date('2021-01-01'), returns "January 1, 2021"
 #' @examples Enter as_date('2021-01-01',abbr = TRUE), returns "Jan 1, 2021"

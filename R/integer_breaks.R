@@ -5,8 +5,11 @@
 #'
 #' @return Integer breaks for ggplot
 #' @export
+#' @import scales
+#' @import ggplot2
 #'
 #' @examples
+#'
 integer_breaks <- function(n = 5, ...) {
   fxn <- function(x) {
     breaks <- floor(pretty(x, n, ...))

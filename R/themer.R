@@ -17,6 +17,7 @@
 #' plot.subtitle = element_text(hjust = 0.5)
 #' )
 #' @export
+#' @import ggplot2
 #'
 #' @examples
 #'
