@@ -1,0 +1,4 @@
+name: Analysis implementation
+description: >
+	Template for analysis implementation at OES
+create_dir: FALSE

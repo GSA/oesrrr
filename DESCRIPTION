@@ -1,0 +1,15 @@
+Package: oesrrr
+Type: Package
+Title: Useful Functions for OES
+Version: 0.1.0
+Author: Ben Jaques-Leslie
+Maintainer: Ben Jaques-Leslie <ben.jaques-leslie@gsa.gov>
+Description: 
+    This package provides useful functions for OES staff using R.
+License: `use_gpl3_license()`
+Encoding: UTF-8
+LazyData: true
+Imports: 
+	lubridate,
+	tidyverse
+RoxygenNote: 7.2.1
