@@ -1,0 +1,104 @@
+---
+title: "Analysis plan"
+# date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    code_folding: hide
+params:
+  author: "author_name"
+  project_number: project_number
+  project_name: "project_name"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(skimr)
+library(DataExplorer)
+library(readr)
+library(oescolorrrs)
+library(oesrrr)
+```
+
+# Analysis Plan
+
+Project Name: `r params$project_name`
+
+Project Code: `r params$project_number`	
+
+Date Finalized: `r nice_date(Sys.Date())`
+
+<!-- How this document is to be used:  -->
+<!-- This document serves as a basis for distinguishing between planned confirmatory analyses and any exploratory analyses that might be conducted on project data. This is crucial to ensuring that results of statistical tests are properly interpreted and reported. For the Analysis Plan to fulfill this purpose, it is essential that it be finalized and date-stamped before we take possession of outcome data. Once this plan is finalized, a date is entered above, and the document is posted publicly on our team website.  -->
+<!-- If any analyses are described that will not be included in the MSG abstract or reported to the agency partner, then explicitly identify these in order to streamline reanalysis. -->
+
+### Project Description
+<!-- [Brief description of the project, including the challenge, the intervention(s) to be tested, and the questions to be answered. This should be brief, but should provide context sufficient for the analysis plan that follows.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Pre Registration Details
+
+This Analysis Plan will be posted on the GSA Evaluation Division website at [TBD] before outcome data are analyzed. In addition, this project will be pre registered in the [registry name] at [link to the registry, either main page or project-specific page].
+
+###  Research Question(s)
+<!-- [Briefly state the primary and any secondary hypotheses to be tested. Aim for plain language. Statistical models and details of hypothesis tests will be covered later; the purpose here is to set the stage for the sections that follow.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+## Data and Data Structure
+
+This section describes variables that will be analyzed, as well as changes that will be made to the raw data with respect to data structure and variables.
+
+### Data Source(s):
+
+Additional administrative data that may be useful for exploratory analysis includes:
+
+### Outcomes to Be Analyzed:
+<!-- [List all outcome variables for which analysis is planned. If specific variable names are unavailable, describe the outcomes in sufficient detail to appropriately guide or constrain their calculation. Specify which outcomes will be submitted to confirmatory versus exploratory analysis (or do this later in the ‘Statistical Models & Hypothesis Tests’ section if it is more appropriate there).] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Transformations of Data Structure:
+<!-- [Describe variables that will be added to the raw data. These may be variables used in the experimental design (e.g., blocking variables) or covariates merged in from a different dataset.]  -->
+<!-- [Describe new variables that will be created by transforming or combining variables in the raw data. If you plan on transforming, centering, or recoding the data, or will apply a coding scheme for categorical variables, please describe that process.  If any measurements are  going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method.] -->
+<!-- [Describe any plans to transform the structure of your data (e.g., from cross-sectional to panel).] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Data Exclusion and Treatment of Missing Data:
+<!-- [Describe criteria you will use to determine whether any observations should be excluded from analysis (e.g., values that are likely data-recording errors, outliers, etc.).] -->
+<!-- [Describe your plan to handle missing data.  How will you deal with incomplete or missing data (e.g., pairwise or listwise deletion, imputation, interpolation)?] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+## Study Design and Analytic Methods
+
+This section describes the statistical models and hypothesis tests that will make up the analysis — including any follow-ups on effects in the main statistical model and any exploratory analyses that can be anticipated prior to analysis.
+
+### Study Design
+<!-- [prompt] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Statistical Models & Hypothesis Tests
+<!-- [What criteria will you use to make inferences? Please describe the information you will use (e.g., specify the p-values), as well as cut-off criteria, where appropriate. Will you be using one- or two-tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, what method will you use to correct for multiple tests? If you are taking into account practical significance, please specify a minimum effect size of interest.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Descriptive Statistics, Tables, & Graphs
+<!-- [What descriptive statistics, tables, and graphs will be needed for reporting? If possible, provide table shells and/or mock graphs. If any statistics, tables, or graphs  are listed that will not be included in the MSG abstract or reported to the agency partner, then explicitly identify these in order to streamline reanalysis.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Confirmatory Analyses: 
+<!-- [Specify the hypothesis test(s) that will be reported as confirmatory. Which outcome and which of the above statistical models will you use to test each hypothesis? If you plan to test null hypotheses other than equality (zero effect), please specify the type of test and the margin. Remember that any test not included here must be noted as an exploratory test in any report of this research. Keep in mind that you can specify contingent or follow-up analyses that are still confirmatory. For example, if you find a main effect of the treatment, will you test for heterogeneous treatment effects? Will you look for specific pairwise differences between treatment arms if you find an overall effect of the pooled treatment? Exploratory analyses can be recorded in the next section. If any analyses are described that will not be included in the MSG abstract or reported to the agency partner, then explicitly identify these in order to streamline reanalysis.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Exploratory Analysis:
+<!-- [OPTIONAL: If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made up front, or where there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could then be tested using a pre-specified analysis at a later time. Note that exploratory analyses will not, by default, be included in reanalysis.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Inference Criteria, Including Any Adjustments for Multiple Comparisons: 
+<!-- [What criteria will you use to make inferences? Please describe the information you will use (e.g., specify the p-values), as well as cut-off criteria, where appropriate. Will you be using one- or two-tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, what method will you use to correct for multiple tests? If you are taking into account practical significance, please specify a minimum effect size of interest.] -->
+Insert text here, and delete the gray prompt above when the document is final
+
+### Limitations:
+<!-- [Describe any anticipated limitations associated with this analysis, if not previously identified in the Project Design document.] -->
+Insert text here, and delete the gray prompt above when the document is final
+

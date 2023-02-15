@@ -1,4 +1,3 @@
-
 #' Returns a nice looking month and year for text
 #'
 #' @param in_date Any date value
@@ -9,7 +8,7 @@
 #' @import tidyverse
 #' @import glue
 #'
-#' @examples Enter as_date('2021-01-01'), returns "January 2021"
+#' @examples Enter nice_month_year('2021-01-01'), returns "January 2021"
 nice_month_year <- function(in_date)
 {
   m_ <- in_date %>% month(label = TRUE, abbr = FALSE)
