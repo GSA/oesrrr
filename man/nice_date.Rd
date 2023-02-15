@@ -12,12 +12,12 @@ nice_date(in_date, abbr = FALSE)
 \item{abbr}{Boolean whether or not to abbreviate month name}
 }
 \value{
-Text string of the date
+Text sting of date
 }
 \description{
 Returns a nice looking date for text
 }
 \examples{
-Enter as_date('2021-01-01'), returns "January 1, 2021"
-Enter as_date('2021-01-01',abbr = TRUE), returns "Jan 1, 2021"
+Enter nice_date('2021-01-01'), returns "January 1, 2021"
+Enter nice_date('2021-01-01',abbr = TRUE), returns "Jan 1, 2021"
 }

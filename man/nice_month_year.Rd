@@ -16,5 +16,5 @@ Text string of the month and year
 Returns a nice looking month and year for text
 }
 \examples{
-Enter as_date('2021-01-01'), returns "January 2021"
+Enter nice_month_year('2021-01-01'), returns "January 2021"
 }
