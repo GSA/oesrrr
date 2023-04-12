@@ -9,5 +9,5 @@ Description:
 License: `use_gpl3_license()`
 Encoding: UTF-8
 LazyData: true
-Imports: lubridate,	tidyverse, here,	ggplot2, english, scales, glue
+Imports: lubridate,	tidyverse, here,	ggplot2, english, scales, glue, DT
 RoxygenNote: 7.2.3
