@@ -7,7 +7,7 @@
 getmode(v)
 }
 \arguments{
-\item{v}{The vector overwhich to calcualt the mode.}
+\item{v}{The vector over which to calculateS the mode.}
 }
 \value{
 The mode of the vector.
