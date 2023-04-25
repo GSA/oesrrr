@@ -1,4 +1,5 @@
 url: https://gsa.github.io/oesrrr/
 template:
   bootstrap: 5
+  bootswatch: sketchy
 
