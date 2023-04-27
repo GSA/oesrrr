@@ -18,6 +18,7 @@ character_to_indicator <- function(in_data,in_unique_identifier,in_variable,in_p
     mutate(across(
       .cols = {{in_variable}},
       .fns = ~case_when(. == "" ~ "missing",
+                        {{in_variable}} == "NULL" ~ "missing",
                         TRUE ~ .)
     )) %>%
     pivot_wider(names_from = {{in_variable}},
